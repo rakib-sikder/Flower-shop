@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.section1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 800px;
+    width: 100%;
+    background-color: rgba(229, 84, 115, 0.1);
+}
+.section1txt > h1 {
+    color: rgb(39, 39, 39);
+font-family: Lato;
+font-size: 80px;
+font-weight: 800;
+}
+.section1txt > p {
+    margin: 32px 0;
+    color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+}
+.section1txt > button {
+    border: none;
+    background-color: rgb(229, 84, 115);
+    border-radius: 8px;
+    padding: 20px 43px 20px 43px;
+    color: rgb(255, 255, 255);
+font-family: Lato;
+font-size: 20px;
+font-weight: 700;
+}
+
+.section2{
+    margin: 120px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.section2txt > h2 {
+    color: rgb(39, 39, 39);
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 24px;
+}
+.section2txt > p {
+    color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+}
+.section2imgs{
+    display: flex;
+}
+.section2img{
+    border-radius: 200px 200px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+align-items: end;
+justify-content: center;
+display: flex;
+height: 500px;
+width: 400px;
+margin: 48px 24px;
+}
+.section2imgtxt > p{
+    color: rgb(39, 39, 39);
+font-family: Lato;
+font-size: 24px;
+font-weight: 700;
+text-decoration: underline;
+}
+.section2img > img {
+    height: 428px;
+}
+
+
+.section3{
+    margin: 120px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 320px;
+    border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+    
+}
+.section3service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 120px;
+    height: 600px;
+    width: 100%;
+    background-color: rgba(229, 84, 115, 0.1);
+}
+.section4txt{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.section4txt > h1 > span{
+    color: rgb(229, 84, 115);
+}
+.section4txt > h1 {
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+.section4txt > p {
+    margin: 32px 0;
+    color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+}
+.section4txt > .section4txtbtn > button {
+    
+    border: none;
+    background-color: rgb(229, 84, 115);
+    border-radius: 8px;
+    padding: 20px 43px 20px 43px;
+    color: rgb(255, 255, 255);
+font-family: Lato;
+font-size: 20px;
+font-weight: 700;
+}
+
+
+
+
+.section5{
+    margin: 120px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.section5txt > h2 {
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+.section5txt > p {
+    color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+margin: 24px 0 48px 0;
+}
+.section5imgs{
+    display: flex;
+}
+.section5img{
+align-items: end;
+justify-content: center;
+display: flex;
+width: 342px;
+height: 396px;
+margin: 48px 24px;
+}
+.section5img > img {
+    height: 428px;
+}
+
+
+.section6{
+    background-image: url("./images/latest-deals-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 449px;
+    margin-bottom: 120px;
+    
+}
+.deals{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.deals > p {
+    color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+margin: 16px 0 48px 0;
+}
+.deals > h1 {
+    color: rgb(39, 39, 39);
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+}
+.signup{
+    display: flex;
+    justify-content: space-between;
+}
+.signup > input {
+    height: 64px;
+    padding-left: 10px;
+    margin-right: 10px;
+    border: none;
+    width: 650px;
+    border-radius: 8px;
+    color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+}
+
+.signup > button {
+    border: none;
+    
+    background-color: rgb(229, 84, 115);
+    border-radius: 8px;
+    padding: 20px 43px 20px 43px;
+    color: rgb(255, 255, 255);
+font-family: Lato;
+font-size: 20px;
+font-weight: 700;
+}
+
+
+.section7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 450px;
+    background: rgb(17, 16, 16);
+    text-align: center;
+}
+.section7 > h2 {
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+font-size: 48px;
+font-weight: 800;
+}
+.section7 > h5 {
+    color: rgba(255, 255, 255, 0.9);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+margin: 24px 0 32px 0;
+}
+.section7 > p {
+    color: rgba(255, 255, 255, 0.4);
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+}
+.section7 > h2 > span {
+    color: 
+    rgb(229, 84, 115);
+}
